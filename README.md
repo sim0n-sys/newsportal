@@ -1,6 +1,6 @@
 # [NewsPortal ](https://https://github.com/sim0n-sys/newsportal)
 
-Author [Brian Kulei](https://github.com/sim0n-sys)
+Author [Simon Mungai](https://github.com/sim0n-sys)
 
 ## Brief description
 NewsPortal is an Organisational news dissemination application. 
@@ -38,22 +38,7 @@ Three dao interfaces and their corresponding implementation classes;
 - Interface NewsDao implemented by class Sql2oNewsDao, handles CRUD data operations related to model News and DepartmentNews.
 - Interface DepartmentDao implemented by class Sql2oDepartmentDao, handles CRUD data operations related to model Department.
 
-The API routes;
 
-- GET "/users"
-- GET "/departments"
-- GET "/users/:id"
-- GET "/departments/:id"
-- GET "/departments/:id/users"
-- GET "/departments/:id/news"
-- GET "/news"
-- GET "/news/general"
-- GET "/news/department"
-
-- POST "/Users/new"
-- POST "/Departments/new"
-- POST "/News/new"
-- POST "/DepartmentNews/new"
 
 # Client Side
 
