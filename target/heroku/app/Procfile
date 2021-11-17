@@ -1,0 +1,1 @@
+web: java -jar target/News_API-1.0-jar-with-dependencies.jar
